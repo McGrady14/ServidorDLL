@@ -17,9 +17,7 @@ namespace ServidorDLL
             {
                 TcpListener myList = new TcpListener(IPAddress.Any, 8010);
                 myList.Start();
-                //bool seguir = true;
-                //while (seguir)
-                //{
+                
 
 
                 Console.WriteLine("Servidor en el puerto 8010...");
