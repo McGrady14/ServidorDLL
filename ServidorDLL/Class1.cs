@@ -8,11 +8,20 @@ namespace ServidorDLL
 {
     public class Class1
     {
-        public static int id;
+        private static int id;
+        private string nombre;
 
         public Class1()
         {
             id++;
+        }
+        public void setNombre(string nombre)
+        {
+            this.nombre = nombre;
+        }
+        public string getNombre()
+        {
+            return this.nombre;
         }
     }
 }
